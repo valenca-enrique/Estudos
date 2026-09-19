@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+:root {
+    --font-cabeça: 'Passion One'
+    --font-corpo: 'Sriracha'
+
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+}
+
+header {
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+header > h1 {
+    font-family: 'Passion One';
+}
+
+header > p > a {
+    text-decoration: none;
+}
+
+main {
+    font-family: 'Sriracha';
+    font-size: 1.2em;
+    
+}
+
+div {
+    position: relative;
+    height: 500px;
+    padding: 10px;
+}
+
+section {
+    background-color: rgba(165, 42, 42, 0.329);
+    padding: 10px;
+    width: 200px;
+    height: 300px;
+ 
+}
+
+div {
+    height: 500px;
+    width: 100%;
+}
+
+.imagem {
+    background-attachment: fixed;
+}
+
+#joana {
+    color: white;
+    background-image: url('imagens/background001.jpg');
+    background-position: right top;
+}
+
+#livro {
+    background-image: url('imagens/background002.jpg');
+    background-position: left top;
+}
+
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+footer a {
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
